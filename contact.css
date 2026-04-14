@@ -1,0 +1,131 @@
+nav{
+    background-color: rgb(5, 5, 57);
+    padding: 15px;
+    display: flex;
+    gap: 30px;
+    justify-content: flex-end;
+    
+}
+
+nav a{
+    color: rgb(241, 193, 228);
+    font-size: 17px;
+    text-decoration: none;
+    display: inline-block;
+    transition: 0.3s;
+}
+nav a:hover {
+  transform: scale(1.1);
+}
+
+nav a.active{
+    color: rgb(223, 117, 174);
+    font-weight: bold;
+}   
+
+
+.logo {
+  font-size: 40px;
+  color: rgb(241, 193, 228);
+  font-family: "Playfair Display", serif;
+  margin-right: auto;
+}
+.top{
+    background-color: rgb(5, 5, 57);
+    height: 80px;
+}
+
+.bottom{
+  /*background-image: url("「背景　ビジネス」の写真素材 _ 41,823,613件の無料イラスト画像.jpg");*/
+    height: 615px;
+    background-color: rgb(157, 190, 245);
+    
+}
+
+body{
+    margin: 0;
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 470px;
+    background-color: rgba(241,193,228,0.9);
+    width: 550px;
+    border-radius: 25px;
+    border-color: rgb(217, 88, 157);
+    padding: 30px;
+}
+
+span{
+    font-weight: bold;
+    font-size: 25px;
+    color: rgb(5, 5, 57);
+}
+p{
+    font-size: 20px;
+    color: rgb(217, 88, 157);
+}
+@media (max-width: 768px){
+    nav{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+    .logo{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .bottom{
+      margin-bottom: auto;
+    }
+
+    div{
+        margin-left:20px;
+        width:80%;
+
+    }
+}
+
+h2{
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    color: rgb(241, 193, 228);
+    font-family: "Playfair Display", serif;
+}
+
+.you{
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    color: rgb(223, 117, 174);
+    font-family: "Playfair Display", serif;
+    top: -5px;
+    font-size: 14px;
+}
+
+.footer{
+    background-color: rgb(5, 5, 57);
+    text-align: center;
+    padding: 20px 20px;
+    border-top: 2px solid rgb(241, 193, 228);
+}
+
+.logo-footer{
+    color: rgb(241, 193, 228);
+    font-size: 18px;
+
+}
+.copy{
+    color: rgb(241, 193, 228);
+    font-size: 14px;
+}
+
+.by{
+    color: rgb(241, 193, 228);
+    font-size: 14px;
+
+}

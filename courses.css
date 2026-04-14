@@ -1,0 +1,128 @@
+nav{
+    background-color: rgb(5, 5, 57);
+    padding: 17px;
+    display: flex;
+    gap: 30px;
+    justify-content: flex-end;
+    
+}
+
+nav a{
+    color: rgb(241, 193, 228);
+    font-size: 23px;
+    text-decoration: none;
+    display: inline-block;
+    transition: 0.3s;
+}
+nav a:hover {
+  transform: scale(1.1);
+}
+
+nav a.active{
+    color: rgb(223, 117, 174);
+    font-weight: bold;
+}   
+
+
+.logo {
+  font-size: 40px;
+  color: rgb(241, 193, 228);
+  font-family: "Playfair Display", serif;
+  margin-right: auto;
+}
+
+.top{
+    background-color: rgb(5, 5, 57);
+    height:70px;
+}
+
+.bottom{
+ 
+    background-image: url("「背景　ビジネス」の写真素材 _ 41,823,613件の無料イラスト画像.jpg");
+    height: 800px;
+    padding: 50px;
+    background-position:center;
+    background-position: right;
+}
+
+body{
+    margin: 0;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    background-color: rgb(241, 193, 228);
+}
+
+th{
+    padding: 30px;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    background-color: rgb(5, 5, 57);
+}
+
+td{
+    padding: 30px;
+    text-align: center;
+    font-size: 25px;
+    color: rgb(5, 5, 57);
+}
+
+tbody tr{
+    border-bottom: 1px solid rgb(223, 117, 174);
+}
+
+tbody tr:hover{
+    background-color: rgb(223, 117, 174);
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 15px;
+    overflow: hidden;
+    padding: 0;
+    overflow-x: auto;
+}
+
+@media (max-width: 768px){
+    nav{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+    .logo{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .bottom{
+      margin-bottom: auto;
+    }
+}
+
+.footer{
+    background-color: rgb(5, 5, 57);
+    text-align: center;
+    padding: 40px 20px;
+    border-top: 2px solid rgb(241, 193, 228);
+}
+
+.logo-footer{
+    color: rgb(241, 193, 228);
+    font-size: 28px;
+
+}
+.copy{
+    color: rgb(241, 193, 228);
+    font-size: 24px;
+}
+
+.by{
+    color: rgb(241, 193, 228);
+    font-size: 24px;
+
+}
+
