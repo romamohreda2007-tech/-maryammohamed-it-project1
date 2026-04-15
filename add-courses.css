@@ -32,14 +32,13 @@ nav a.active{
 }
 .top{
     background-color: rgb(5, 5, 57);
-    height: 70px;
+    padding: 15px 0;
 }
 
 .bottom{
      background-image: url("「背景　ビジネス」の写真素材 _ 41,823,613件の無料イラスト画像.jpg");
     height: 615px;
     background-size: 800px;
-
     
 }
 
@@ -121,4 +120,11 @@ label{
     color: rgb(241, 193, 228);
     font-size: 14px;
 
+}
+
+.note{
+    text-align: center;
+    color: rgb(223, 117, 174);
+    margin: 0;
+    font-family: "Playfair Display", serif;
 }

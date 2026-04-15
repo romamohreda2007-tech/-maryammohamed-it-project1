@@ -73,11 +73,11 @@ body{
     padding: 10px 20px;
     border-radius: 8px;
     font-family: "Playfair Display", serif;
-    font-size: 20px;
+    font-size: 16px;
     color: rgb(5, 5, 57);
     display: block;
     margin-left: auto;
-    margin-right: 270px;
+    margin-right: 205px;
     transition: 0.3;
 }
 

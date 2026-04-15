@@ -33,7 +33,7 @@ nav a.active{
 
 .top{
     background-color: rgb(5, 5, 57);
-    height:70px;
+    padding: 15px 0;
 }
 
 .bottom{
@@ -123,5 +123,13 @@ tbody tr:hover{
     color: rgb(241, 193, 228);
     font-size: 14px;
 
+}
+
+.here{
+    text-align: center;
+    color: rgb(223, 117, 174);
+    margin: 0;
+    font-size: 17px;
+    font-family: "Playfair Display", serif;
 }
 
