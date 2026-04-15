@@ -108,14 +108,16 @@ label{
 
 .logo-footer{
     color: rgb(241, 193, 228);
-    font-size: 20px;
+    font-size: 18px;
 
 }
 .copy{
     color: rgb(241, 193, 228);
+    font-size: 14px;
 }
 
 .by{
     color: rgb(241, 193, 228);
+    font-size: 14px;
 
 }
