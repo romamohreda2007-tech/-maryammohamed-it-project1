@@ -2,14 +2,14 @@ nav{
     background-color: rgb(5, 5, 57);
     padding: 15px;
     display: flex;
-    gap: 33px;
+    gap: 30px;
     justify-content: flex-end;
     
 }
 
 nav a{
     color: rgb(241, 193, 228);
-    font-size: 23px;
+    font-size: 17px;
     text-decoration: none;
     display: inline-block;
     transition: 0.3s;
