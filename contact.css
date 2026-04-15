@@ -46,22 +46,28 @@ body{
     margin: 0;
 }
 
-div{
+
+.bottom {
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    margin-left: 500px;
-    background-color: rgba(241,193,228,0.9);
+    align-items: center;
+    min-height: 70vh;
+}
+
+.contact{
+    background-color: rgba(241,193,228);
     width: 500px;
     border-radius: 25px;
-    border-color: rgb(217, 88, 157);
     padding: 30px;
+    text-align: left;
+    margin-top: -150px;
 }
 
 span{
     font-weight: bold;
     font-size: 25px;
     color: rgb(5, 5, 57);
+    margin-left: 20px;
 }
 p{
     font-size: 20px;
