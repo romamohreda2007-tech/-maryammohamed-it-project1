@@ -52,6 +52,7 @@ body{
     background-color: rgb(241, 193, 228);
     width: 500px;
     padding: 20px;
+    padding-bottom: 10px;
     border-radius: 10px;
     font-family: "Playfair Display", serif;
     font-size: 20px;
@@ -59,6 +60,7 @@ body{
     margin-left: 50px;
     position: relative;
     top: -60px;
+    
     
 }
 .about:hover{
